@@ -10,6 +10,7 @@
             <value>helpdesk.ticket</value>
             <value eval="[
                 'partner_project_id',
+                'priority',
             ]"/>
         </function>
     </data>

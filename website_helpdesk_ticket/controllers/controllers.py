@@ -1,15 +1,15 @@
-import logging
+from odoo import http
 from odoo.http import request
-# from odoo.addons.website_sale.controllers.main import WebsiteSale
-from odoo import fields, http, tools
-
-_logger = logging.getLogger(__name__)
+from odoo.addons.website.controllers import form
 
 
-class HelpdeskTicket(http.Controller):
+class WebsiteForm(form.WebsiteForm):
 
-    @http.route(['/create_ticket'], type='http', auth='user', website=True)
-    def get_ticket_data(self):
-        partner_id = request.env['res.users'].browse(request.uid).partner_id
-        return request.render('website_helpdesk_ticket.helpdesk_ticket_create',
-                              {'partner_id': partner_id})
+    def _handle_website_form(self, model_name, **kwargs):
+        partner_project_id = request.params.get('partner_project_id')
+        if partner_project_id:
+            project_id = request.env['project.project'].sudo().search([('id', '=', partner_project_id)], limit=1)
+            if project_id and project_id.helpdesk_team:
+                request.params['team_id'] = project_id.helpdesk_team.id
+
+        return super(WebsiteForm, self)._handle_website_form(model_name, **kwargs)

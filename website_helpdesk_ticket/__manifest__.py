@@ -11,6 +11,7 @@
         "data/data.xml",
         "views/helpdesk_ticket_view.xml",
         "views/res_partner_view.xml",
+        "views/project_project_view.xml",
         "views/templates.xml",
     ],
     "post_load": None,

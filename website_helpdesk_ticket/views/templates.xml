@@ -16,7 +16,6 @@
                                     <div class="container">
                                         <form id="create_ticket" action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-model_name="helpdesk.ticket" data-success-mode="redirect" data-success-page="/your-ticket-has-been-submitted" data-pre-fill="true">
                                             <input id="partner_id_ok" type="hidden" name="partner_id" t-att-value="partner_id.id"/>
-                                            <input id="parner_helpdesk_team" type="hidden" name="team_id" t-att-value="partner_id.helpdesk_team.id"/>
                                             <div class="s_website_form_rows row s_col_no_bgcolor">
 <!--                                                here-->
                                                 <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required" data-type="char" data-name="Field">

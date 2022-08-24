@@ -13,3 +13,12 @@ class WebsiteForm(form.WebsiteForm):
                 request.params['team_id'] = project_id.helpdesk_team.id
 
         return super(WebsiteForm, self)._handle_website_form(model_name, **kwargs)
+
+
+class HelpdeskTicket(http.Controller):
+
+    @http.route(['/create_ticket_custom'], type='http', auth='user', website=True)
+    def helpdesk_ticket_data(self):
+        context = dict(request.context)
+        ticket_types = request.env['helpdesk.ticket.type'].sudo().with_context(context).search([])
+        return request.render('website_helpdesk_ticket.helpdesk_ticket_create', {'ticket_type_ids': ticket_types})

@@ -11,6 +11,8 @@
             <value eval="[
                 'partner_project_id',
                 'priority',
+                'ticket_type_id',
+                'tag_ids',
             ]"/>
         </function>
     </data>

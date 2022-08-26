@@ -1,0 +1,146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_helpdesk_ticket
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-25 14:54+0000\n"
+"PO-Revision-Date: 2022-08-25 14:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "<span class=\"s_website_form_label_content\">Attachment</span>"
+msgstr "<span class=\"s_website_form_label_content\">Adjunto</span>"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "<span class=\"s_website_form_label_content\">Partner Email</span>"
+msgstr "<span class=\"s_website_form_label_content\">Correo Electrónico</span>"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "<span class=\"s_website_form_label_content\">Partner Name</span>"
+msgstr "<span class=\"s_website_form_label_content\">Nombre</span>"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
+msgstr "<span class=\"s_website_form_label_content\">Teléfono</span>"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "<span class=\"s_website_form_label_content\">Priority</span>"
+msgstr "<span class=\"s_website_form_label_content\">Prioridad</span>"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "<span class=\"s_website_form_label_content\">Project</span>"
+msgstr "<span class=\"s_website_form_label_content\">Proyecto</span>"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid ""
+"<span class=\"s_website_form_label_content\">Subject</span>\n"
+"                                                            <span class=\"s_website_form_mark\"> *</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">Asunto</span>\n"
+"                                                            <span class=\"s_website_form_mark\"> *</span>"
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "<span class=\"s_website_form_label_content\">Type</span>"
+msgstr "<span class=\"s_website_form_label_content\">Tipo</span>"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "<span class=\"s_website_form_label_content\">Your Question</span>"
+msgstr "<span class=\"s_website_form_label_content\">Pregunta</span>"
+
+#. module: website_helpdesk_ticket
+#: model:ir.model,name:website_helpdesk_ticket.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: website_helpdesk_ticket
+#: model:website.menu,name:website_helpdesk_ticket.ticket_menu
+msgid "Create a ticket"
+msgstr "Crear un Ticket"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.view_res_partner_helpdesk_and_project
+msgid "Helpdesk"
+msgstr "Servicio de asistencia"
+
+#. module: website_helpdesk_ticket
+#: model:ir.model.fields,field_description:website_helpdesk_ticket.field_project_project__helpdesk_team
+msgid "Helpdesk Team"
+msgstr "Equipo de servicio de asistencia"
+
+#. module: website_helpdesk_ticket
+#: model:ir.model,name:website_helpdesk_ticket.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "Ticket de servicio de asistencia"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "High priority"
+msgstr "Alta prioridad"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "Low priority"
+msgstr "Baja prioridad"
+
+#. module: website_helpdesk_ticket
+#: model:ir.model,name:website_helpdesk_ticket.model_project_project
+#: model:ir.model.fields,field_description:website_helpdesk_ticket.field_helpdesk_ticket__partner_project_id
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.website_helpdesk_portal_custom
+msgid "Project"
+msgstr "Proyecto"
+
+#. module: website_helpdesk_ticket
+#: model:ir.model.fields,field_description:website_helpdesk_ticket.field_res_partner__project_ids
+#: model:ir.model.fields,field_description:website_helpdesk_ticket.field_res_users__project_ids
+msgid "Projects"
+msgstr "Proyectos"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "Submit"
+msgstr "Enviar"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "Submit a Ticket"
+msgstr "Enviar un Ticket"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.website_helpdesk_portal_custom
+msgid "Type"
+msgstr "Tipo"
+
+#. module: website_helpdesk_ticket
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_ticket.helpdesk_ticket_create
+#: model_terms:website.page,arch_db:website_helpdesk_ticket.ticket_page
+msgid "Urgent"
+msgstr "Urgente"
